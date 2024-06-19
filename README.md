@@ -1,3 +1,5 @@
+Description:
+The Simple Flask Blog Application is a web-based blog platform developed using Flask, a lightweight WSGI web application framework in Python. This application allows users to create, read, update, and delete blog posts. It serves as a fundamental example of how to build a CRUD (Create, Read, Update, Delete) application using Flask.
 Flask is a WSGI application
  A WSGI server is used to run the application, converting incoming HTTP requests to the standard WSGI environ, and converting outgoing WSGI responses to HTTP responses.
 
@@ -15,8 +17,41 @@ JavaScript Object Notation = LANG INDEPENDENT DATA INTERCHANGE FORMAT
 
 windows to wsl = wsl
 wsl to windows= ctrl+D
+Project Link: Simple Flask Blog Application
 
-tutorial app
+
+Key Features:
+
+User Authentication:
+
+User registration and login functionality.
+Password hashing for secure storage.
+Session management to maintain user state.
+Blog Post Management:
+
+Create new blog posts with a title and content.
+Edit existing posts.
+Delete posts.
+View a list of all posts.
+View individual post details.
+
+Database Integration:
+Utilizes SQLite for storing user and blog post data.
+
+Template Rendering:
+
+Jinja2 templating engine for rendering HTML pages.
+Bootstrap for responsive and modern UI design.
+
+Technical Stack:
+
+Backend: Flask
+Frontend: HTML, CSS (Bootstrap), Jinja2
+Database: SQLite
+Authentication: Flask-Login, Werkzeug for password hashing
+
+Installation and Setup:
+
 1. set up application 
 2. connect to db   =In web applications this connection is typically tied to the request. It is created at some point when handling a request, and closed before the response is sent.
 3.Blueprints and Views
