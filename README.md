@@ -76,4 +76,15 @@ Creating, editing, and deleting blog posts will require a user to be logged in. 
 always start with this=
 describe the project in .toml file outside flaskr
 write command =pip install -e .
-7. test coverage
+7. Steps to Deploy a Flask App on Glitch from GitHub
+Create a Glitch Account:
+
+Visit Glitch and sign up for an account (or log in if you already have one).
+
+Import Your GitHub Repository to Glitch: copy url 
+Configure the start.sh File
+If database error create file: init_db_script.py 
+Access Your Deployed App: Once the app is deployed, Glitch will provide you with a live URL like https://your-app-name.glitch.me.
+
+
+
