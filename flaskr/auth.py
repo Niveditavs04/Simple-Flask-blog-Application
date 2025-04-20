@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import functools
 
 from flask import (
@@ -30,7 +32,8 @@ def register():
                 )
                 db.commit()
             except db.IntegrityError:
-                error = f"User {username} is already registered."
+                error = "User {} is already registered.".format(username)
+
             else:
                 return redirect(url_for("auth.login"))
 
