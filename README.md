@@ -82,7 +82,8 @@ Create a Glitch Account:
 Visit Glitch and sign up for an account (or log in if you already have one).
 
 Import Your GitHub Repository to Glitch: copy url 
-Configure the start.sh File
+Configure the start.sh File:  gunicorn "flaskr:create_app()" --bind 0.0.0.0:$PORT
+
 If database error create file: init_db_script.py 
 run command in terminal: python init_db_script.py
 
