@@ -84,7 +84,10 @@ Visit Glitch and sign up for an account (or log in if you already have one).
 Import Your GitHub Repository to Glitch: copy url 
 Configure the start.sh File
 If database error create file: init_db_script.py 
+run command in terminal: python init_db_script.py
+
 Access Your Deployed App: Once the app is deployed, Glitch will provide you with a live URL like https://your-app-name.glitch.me.
+
 
 
 
